@@ -1,0 +1,15 @@
+Source: opa-fmgui
+Section: net
+Priority: optional
+Maintainer: Ana Guerrero Lopez <ana-externe.guerrero@edf.fr>
+Build-Depends: debhelper (>=9), gradle, default-jdk
+Standards-Version: 3.9.8
+Homepage: https://github.com/01org/opa-fmgui
+
+Package: opa-fmgui
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Intel Omni-Path Fabric Manager GUI
+ FMGUI is the Fabric Manager Graphical User Interface.
+ .
+ DO NOT USE THIS PACKAGE, use instead opa-fmgui-deb.

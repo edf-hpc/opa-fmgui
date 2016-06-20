@@ -1,0 +1,5 @@
+lib/						usr/share/java/fmgui/
+install/images/	 			usr/share/icons/hicolor/
+install/fmgui.desktop       usr/share/applications
+build/libs/opa-fmgui.jar 	usr/share/java/fmgui/
+fmgui 						usr/bin

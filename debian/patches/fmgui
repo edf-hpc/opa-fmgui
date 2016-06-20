@@ -1,0 +1,16 @@
+Index: opa-fmgui/fmgui
+===================================================================
+--- /dev/null
++++ opa-fmgui/fmgui
+@@ -0,0 +1,11 @@
++#!/bin/sh
++#
++# $Id$
++#
++# Runs the Fabric Manager GUI.
++
++JAVA=/usr/lib/jvm/default-java/bin/java
++JAR=/usr/share/java/fmgui/opa-fmgui.jar
++
++exec $JAVA $* -jar $JAR
++

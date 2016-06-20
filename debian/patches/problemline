@@ -1,0 +1,10 @@
+Index: opa-fmgui/build.gradle
+===================================================================
+--- opa-fmgui.orig/build.gradle
++++ opa-fmgui/build.gradle
+@@ -73,5 +73,3 @@ project(':gritty') {
+ 
+ 
+ }
+-
+-ant.importBuild 'build.xml'
